@@ -7,6 +7,9 @@ public class Main {
         UsedCars car2 = new UsedCars(4, "Mercedes Benz", 24000, 54000);
         System.out.println(car2.getFinalPrice());
 
+        UsedCars car3 = new UsedCars(4, "Bentley", 4000000, 660000);
+        System.out.println(car3.getFinalPrice());
+
         Fahrzeug motorrad = new Motorrad(2, "Yamaha", 7000);
         motorrad.drive(); //dynamic binding
         car.drive();
