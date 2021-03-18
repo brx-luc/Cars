@@ -12,7 +12,7 @@ public class Main {
 
         Fahrzeug motorrad = new Motorrad(2, "Yamaha", 7000);
         motorrad.drive(); //dynamic binding
-        car.drive(); //
+        car.drive(); ///
     }
 
 }
