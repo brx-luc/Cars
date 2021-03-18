@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="387.91666666666663" y="354.0">damagedCars</node>
+    <node x="285.96212121212125" y="204.0">Car</node>
+    <node x="144.91666666666663" y="365.0">UsedCars</node>
+    <node x="235.91666666666669" y="0.0">Fahrzeug</node>
+    <node x="0.0" y="215.5">Motorrad</node>
+    <node x="294.46212121212125" y="513.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="damagedCars" target="Car">
+      <point x="0.0" y="-49.5" />
+      <point x="511.41666666666663" y="329.0" />
+      <point x="436.46212121212125" y="329.0" />
+      <point x="64.5" y="50.0" />
+    </edge>
+    <edge source="UsedCars" target="Car">
+      <point x="0.0" y="-38.5" />
+      <point x="256.41666666666663" y="329.0" />
+      <point x="307.46212121212125" y="329.0" />
+      <point x="-64.5" y="50.0" />
+    </edge>
+    <edge source="Motorrad" target="Fahrzeug">
+      <point x="51.0" y="-38.5" />
+      <point x="153.0" y="174.0" />
+      <point x="279.20238095238096" y="174.0" />
+      <point x="-57.71428571428572" y="72.0" />
+    </edge>
+    <edge source="Main" target="UsedCars">
+      <point x="-37.25" y="-27.0" />
+      <point x="331.71212121212125" y="483.0" />
+      <point x="200.66666666666663" y="483.0" />
+      <point x="-55.75" y="38.5" />
+    </edge>
+    <edge source="UsedCars" target="Fahrzeug">
+      <point x="-74.33333333333331" y="-38.5" />
+      <point x="182.08333333333331" y="329.0" />
+      <point x="243.28841991341994" y="329.0" />
+      <point x="243.28841991341994" y="184.0" />
+      <point x="308.0595238095238" y="184.0" />
+      <point x="-28.85714285714289" y="72.0" />
+    </edge>
+    <edge source="damagedCars" target="Fahrzeug">
+      <point x="82.33333333333331" y="-49.5" />
+      <point x="593.75" y="329.0" />
+      <point x="548.9166666666666" y="329.0" />
+      <point x="548.9166666666666" y="174.0" />
+      <point x="394.63095238095235" y="174.0" />
+      <point x="57.714285714285666" y="72.0" />
+    </edge>
+    <edge source="Car" target="Fahrzeug">
+      <point x="-43.0" y="-50.0" />
+      <point x="328.96212121212125" y="184.0" />
+      <point x="336.9166666666667" y="184.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="Main" target="Fahrzeug">
+      <point x="62.083333333333314" y="-27.0" />
+      <point x="431.04545454545456" y="493.0" />
+      <point x="645.4166666666666" y="493.0" />
+      <point x="645.4166666666666" y="164.0" />
+      <point x="423.48809523809524" y="164.0" />
+      <point x="86.57142857142856" y="72.0" />
+    </edge>
+    <edge source="Main" target="Motorrad">
+      <point x="-62.083333333333314" y="-27.0" />
+      <point x="306.87878787878793" y="493.0" />
+      <point x="102.0" y="493.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="Main" target="damagedCars">
+      <point x="12.416666666666686" y="-27.0" />
+      <point x="381.37878787878793" y="473.0" />
+      <point x="449.66666666666663" y="473.0" />
+      <point x="-61.75" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8588965517241378" x="958.5811787377551" y="495.7780632728442" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
