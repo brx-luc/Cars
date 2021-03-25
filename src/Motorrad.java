@@ -8,4 +8,5 @@ public class Motorrad extends Fahrzeug{
     public void drive() {
         System.out.println("Vroom vroom");
     }
+
 }

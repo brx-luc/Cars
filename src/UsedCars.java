@@ -7,7 +7,6 @@ public class UsedCars extends Car{
         this.mileage = mileage;
     }
 
-
     @Override
     public double getFinalPrice() {
         double p = getPrice();
@@ -18,4 +17,5 @@ public class UsedCars extends Car{
 
         return p;
     }
+
 }

@@ -20,5 +20,4 @@ class damagedCarsTest {
         assertEquals(21500, d.getFinalPrice(), 0);
     }
 
-
 }
