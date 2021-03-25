@@ -1,30 +1,23 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class UsedCarsTest {
 
-    @Test
-    void drive() {
-    }
+    UsedCars u;
 
-    @Test
-    void testDrive() {
-    }
+    @BeforeEach
+    void setup() throws Exception{
 
-    @Test
-    void getAnzahlRaeder() {
-    }
+        u = new UsedCars(4, "lol",24000,54000);
 
-    @Test
-    void getModel() {
-    }
 
-    @Test
-    void getPrice() {
     }
 
     @Test
     void getFinalPrice() {
+        assertEquals(17520, u.getFinalPrice(), 0);
     }
+
 }
